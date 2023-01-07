@@ -30,7 +30,6 @@ Please provide a description._
 _If there is an associated grant, please provide the name of the grantor and the grant
 name and number._
 
-### Any other comments?
 
 ## Composition
 
@@ -82,15 +81,6 @@ _If so, please provide a description of these splits, explaining the rationale b
 
 _If so, please provide a description._
 
-### Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
-
-_If it links to or relies on external resources, a) are there guarantees that they will
-exist, and remain constant, over time; b) are there official archival versions of the
-complete dataset (i.e., including the external resources as they existed at the time the
-dataset was created); c) are there any restrictions (e.g., licenses, fees) associated with
-any of the external resources that might apply to a future user? Please provide descriptions
-of all external resources and any restrictions associated with them, as well as links or other
-access points, as appropriate._
 
 ### Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)?
 
@@ -135,15 +125,10 @@ inferred/derived from other data, was the data validated/verified? If so, please
 
 _How were these mechanisms or procedures validated?_
 
-### If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
 
-### Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
+### Who was involved in the data collection process (e.g., students, contractors) and how were they compensated (e.g., how much these people were paid)?
 
 ### Over what timeframe was the data collected?
-
-_Does this timeframe match the creation timeframe of the data associated with the instances (e.g.
-recent crawl of old news articles)? If not, please describe the timeframe in which the data
-associated with the instances was created._
 
 ### Were any ethical review processes conducted (e.g., by an institutional review board)?
 
@@ -178,29 +163,23 @@ _If so, please provide a description, as well as a link or other access point to
 _If so, please provide a description of this analysis, including the outcomes, as well as a link
 or other access point to any supporting documentation._
 
-### Any other comments?
 
-## Preprocessing/cleaning/labeling
+## Cleaning
 
 _The questions in this section are intended to provide dataset consumers with the information
 they need to determine whether the “raw” data has been processed in ways that are compatible
 with their chosen tasks. For example, text that has been converted into a “bag-of-words” is
 not suitable for tasks involving word order._
 
-### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?
+### Was any cleaning of the data done (e.g, removal of instances, processing of missing values)?
 
 _If so, please provide a description. If not, you may skip the remainder of the questions in
 this section._
 
-### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
+### Was the “raw” data saved in addition to the cleaned data (e.g., to support unanticipated future uses)?
 
 _If so, please provide a link or other access point to the “raw” data._
 
-### Is the software used to preprocess/clean/label the instances available?
-
-_If so, please provide a link or other access point._
-
-### Any other comments?
 
 ## Uses
 
@@ -219,7 +198,7 @@ _If so, please provide a link or other access point._
 
 ### What (other) tasks could the dataset be used for?
 
-### Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
+### Is there anything about the composition of the dataset or the way it was collected and cleaned that might impact future uses?
 
 _For example, is there anything that a future user might need to know to avoid uses that
 could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of
@@ -231,7 +210,6 @@ harms?_
 
 _If so, please provide a description._
 
-### Any other comments?
 
 ## Distribution
 
@@ -239,30 +217,13 @@ _If so, please provide a description._
 
 _If so, please provide a description._
 
-### How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?
+### How will the dataset will be distributed (e.g., zip file, website, GitHub)?
 
 _Does the dataset have a digital object identifier (DOI)?_
 
-### When will the dataset be distributed?
+### Will the dataset be distributed under a copyright or other intellectual property (IP) license ?
 
-### Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
 
-_If so, please describe this license and/or ToU, and provide a link or other access point to,
-or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated
-with these restrictions._
-
-### Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
-
-_If so, please describe these restrictions, and provide a link or other access point to, or
-otherwise reproduce, any relevant licensing terms, as well as any fees associated with these
-restrictions._
-
-### Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
-
-_If so, please describe these restrictions, and provide a link or other access point to, or otherwise
-reproduce, any supporting documentation._
-
-### Any other comments?
 
 ## Maintenance
 
@@ -272,10 +233,6 @@ and communicate this plan with dataset consumers._
 ### Who is supporting/hosting/maintaining the dataset?
 
 ### How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
-
-### Is there an erratum?
-
-_If so, please provide a link or other access point._
 
 ### Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?
 
@@ -295,4 +252,4 @@ _If so, please provide a description. Will these contributions be validated/veri
 please describe how. If not, why not? Is there a process for communicating/distributing these
 contributions to other users? If so, please provide a description._
 
-### Any other comments?
+
